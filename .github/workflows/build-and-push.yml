@@ -33,6 +33,5 @@ jobs:
                 push: true
                 tags: |
                     ghcr.io/luckyakbar/blog:latest
-                    ghcr.io/luckyakbar/blog:${{ github.sha }} # Optional: Tag with commit SHA
                 cache-from: type=gha
                 cache-to: type=gha,mode=max
