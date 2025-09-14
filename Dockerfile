@@ -6,9 +6,7 @@ RUN apk add --no-cache --update build-base git
 # Install dependencies
 WORKDIR /app
 COPY Gemfile ./
-RUN bundle config set deployment 'true' && \
-    bundle config set without 'development test' && \
-    bundle install
+RUN bundle install
 
 # Build the site
 COPY . .
