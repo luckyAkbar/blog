@@ -5,7 +5,7 @@ FROM ruby:3.2.3-alpine AS builder
 RUN apk add --no-cache --update build-base git
 # Install dependencies
 WORKDIR /app
-COPY Gemfile Gemfile.lock ./
+COPY Gemfile ./
 RUN bundle config set deployment 'true' && \
     bundle config set without 'development test' && \
     bundle install
