@@ -173,7 +173,7 @@ services:
             - 80
         restart: unless-stopped
         labels:
-          - "com.centurylinklabs.watchtower.enable"
+          - "com.centurylinklabs.watchtower.enable=true"
 ```
 
 Sebelum anda menyimpan perubahan pada file tersebut, pastikan anda sudah mengganti username github anda dengan yang anda gunakan di file workflows. Apabila terlupa, proses menjalankan container akan gagal. Perlu diperhatikan juga bahwasannya labels yang ada di baris ke 11 harus dimiliki oleh setiap kontainer yang ingin dimonitor dan diupdate oleh watchtower. Anda juga harus selalu menyertakan tag di bagian image karena watchtower akan melakukan monitoring perubahan docker image yang memiliki tag yang sama. Setelah itu anda bisa menjalankan perintah `docker compose up` di folder yang sama dengan file `compose.yaml` di atas.
