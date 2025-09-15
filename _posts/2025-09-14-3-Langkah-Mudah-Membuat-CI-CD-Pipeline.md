@@ -186,7 +186,7 @@ Sesuai dengan sintaks workflows yang telah dibuat, setiap ada perubahan yang ber
 
 ![kondisi awal](assets/img/kondisi-awal-sebelum-ci-cd-berjalan.png)
 
-Terlihat hanya ada satu artikel pada website tersebut, sedangkan artikel ini belum tayang. Pull request untuk memposting artikel ini akan ada di [pull request #3](https://github.com/luckyAkbar/blog/pull/2). Setelah pull request tersebut di merge ke branch master, artikel ini akan secara otomatis tayang di url ini: [https://blog.luckyakbar.web.id/posts/3-Langkah-Mudah-Membuat-CI-CD-Pipeline/](https://blog.luckyakbar.web.id/posts/3-Langkah-Mudah-Membuat-CI-CD-Pipeline/).
+Terlihat hanya ada satu artikel pada website tersebut, sedangkan artikel ini belum tayang. Pull request untuk memposting artikel ini akan ada di [pull request #3](https://github.com/luckyAkbar/blog/pull/3). Setelah pull request tersebut di merge ke branch master, artikel ini akan secara otomatis tayang di url ini: [https://blog.luckyakbar.web.id/posts/3-Langkah-Mudah-Membuat-CI-CD-Pipeline/](https://blog.luckyakbar.web.id/posts/3-Langkah-Mudah-Membuat-CI-CD-Pipeline/).
 
 ## Kesimpulan
 
